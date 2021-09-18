@@ -19,6 +19,8 @@ const asyncAuth = asyncComponent(() => {
   return import("./containers/Auth/Auth");
 });
 
+// hello world 
+
 class App extends Component {
   componentDidMount() {
     this.props.onTryAutoSignup();
