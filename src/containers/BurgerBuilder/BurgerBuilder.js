@@ -69,7 +69,7 @@ class BurgerBuilder extends Component {
     if (this.props.ings) {
       burger = (
         <Fragment>
-          {/* <Burger ingredients={this.props.ings} /> */}
+          <Burger ingredients={this.props.ings} />
           <BuildControls
             ingredientAdded={this.props.onIngredientAdded}
             ingredientRemoved={this.props.onIngredientRemoved}
